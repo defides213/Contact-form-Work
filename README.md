@@ -5,8 +5,7 @@ This project was given to me by a company that I wanted to do my best at.
 The company asked me to choose any brand to base my design off of. 
 I decided to choose Reddit 
 
-All rights reserved to Reddit and their brand.
-https://www.reddit.com/
+I don't claim any rights or affiliation with Reddit or their brand, copyright and all rights reserved to Reddit
 
 ### Tech Stack
 

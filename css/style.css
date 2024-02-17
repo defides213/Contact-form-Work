@@ -27,7 +27,8 @@ a:hover {
     color: #ee5923;
 }
 
-h4, h1 {
+h4,
+h1 {
     color: white !important;
 }
 
@@ -56,7 +57,7 @@ button.firstbutton {
 
 button {
     border: solid 1px #ee5923;
-    border-radius: 5px!important;
+    border-radius: 5px !important;
 }
 
 button:hover {
@@ -78,7 +79,8 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-.icons, a.text {
+.icons,
+a.text {
     color: white;
 }
 
@@ -91,7 +93,7 @@ p {
 }
 
 .manualpadding {
-    padding-bottom: 200px;
+    padding-bottom: 150px;
     padding-top: 48px;
 }
 
@@ -102,6 +104,7 @@ p {
 .margin {
     margin-left: 1rem;
 }
+
 @media only screen and (max-width: 768px) {
 
     [class*="width"] {
@@ -109,47 +112,52 @@ p {
     }
 }
 
-@media only screen and (min-width: 268px) and (max-width: 568px){
+@media only screen and (min-width: 268px) and (max-width: 568px) {
 
     [class*="width"] {
         width: 80vw !important;
     }
-    [class*="wraping"]  {
-        margin-left: 0!important;
-        flex-wrap: wrap!important;
+
+    [class*="wraping"] {
+        margin-left: 0 !important;
+        flex-wrap: wrap !important;
     }
 }
 
-@media only screen and (min-width: 268px) and (max-width: 990px){
+@media only screen and (min-width: 268px) and (max-width: 990px) {
     [class*="size"] {
         margin-top: 2rem;
     }
+
     [class*="myshadow"] {
-        margin: 0!important;
+        margin: 0 !important;
         box-shadow: 0 0 0;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 990px){
+@media only screen and (min-width: 768px) and (max-width: 990px) {
 
     [class*="width"] {
         width: 40vw !important;
     }
 }
-@media only screen and (min-width: 992px) and (max-width: 1226px){
+
+@media only screen and (min-width: 992px) and (max-width: 1226px) {
 
     [class*="width"] {
         width: 38vw !important;
     }
-    [class*="wraping"]  {
-        margin-left: 0!important;
-        flex-wrap: wrap!important;
+
+    [class*="wraping"] {
+        margin-left: 0 !important;
+        flex-wrap: wrap !important;
     }
 }
 
 .img {
     background-image: url("../img/thing.png");
 }
+
 .img2 {
     background-image: url("../img/thing2.png");
 }
@@ -159,18 +167,23 @@ p {
     height: 25px;
 }
 
+.disclaimer {
+    font-size: small;
+    opacity: 60%;
+}
+
 ::-webkit-scrollbar {
     width: 8px;
-  }
-  
-  ::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-track {
     background: #f1f1f1;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background: #c94c1e;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+::-webkit-scrollbar-thumb:hover {
     background: #e25927;
-  }
+}
