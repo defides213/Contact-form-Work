@@ -40,16 +40,21 @@ Tuesday:
 - Created the base with no reponsiveness
 
 Wednesday:
-- fleshed out the skeleton
-- started with responsiveness
+- Fleshed out the skeleton
+- Started with responsiveness
 
 Thursday:
-- made amazing progress with responsiveness, just needs to be fleshed out more
+- Made amazing progress with responsiveness, just needs to be fleshed out more
 
 Friday:
 - Changed the whole website
 - Layout and Color changed
-- based off Reddit now instead of nothing
+- Based off Reddit now instead of nothing
+
+Saturday:
+- Fix the Github page
+- Added a Readme.md File
+
 ## Screenshots
 First concept of the website 
 ![App Screenshot](https://i.imgur.com/6c8TMOI.png)
