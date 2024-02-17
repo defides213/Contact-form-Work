@@ -1,0 +1,30 @@
+input[type="radio"] {
+    display: none;
+}
+
+/* Style the custom radio button */
+.customRadioLabel {
+    position: relative;
+    padding-left: 30px; 
+    cursor: pointer;
+}
+
+/* Create the custom radio button appearance */
+.customRadioLabel:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    border: 2px solid #00000018; 
+    border-radius: 50%;
+    background-color: #fff; 
+}
+
+/* Style the custom radio button when selected */
+input[type="radio"]:checked + .customRadioLabel:before {
+    background-color: #e25927; 
+    border: solid 2px #2E282A;
+}

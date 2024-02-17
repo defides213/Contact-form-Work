@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/inputs.css">
     <script src="js/script.js" defer></script>
     <script src="https://kit.fontawesome.com/5257854f6c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/awasomefont/css/all.css">
@@ -14,14 +15,15 @@
     <noscript>Your browser does not support JavaScript!</noscript>
 </head>
 <body class="img">
-    <nav class="navbar navbar-color container-fluid justify-content-center">
-        <div class="d-flex ">
-            <div><i class="fa-solid fa-user fa-xl mx-4 nav-item q"></i></div>
-            <div><a class="nav-item transition mx-4" href="#">Home</a></div>
-            <div><a class="nav-item transition mx-4" href="#">Contact</a></div>
+    <nav class="navbar navbar-color container-fluid">
+        <div class="d-flex align-items-center justify-content-evenly container">
+            <div><img src="img/Reddit_Lockup.svg" alt="" class="icon"></div>
+            <div><a class="nav-item transition " href="#">Home</a></div>
+            <div><a class="nav-item transition " href="#">Contact</a></div>
+            <div><a class="nav-item transition " href="#">About us</a></div>
         </div>
     </nav>
-    <div class="container-fluid firstbox mb-5 pt-5">
+    <div class="container-fluid firstbox mb-5 pt-5 img2">
         <div class="container">
             <div class="pt-5">
                 <h1>Welcome</h1>
@@ -32,10 +34,10 @@
         </div>
         <div class="container "><a href="#contactform"><button class="m-5 firstbutton p-3">Contact us</button></a></div>
     </div>
-   <div class="container-fluid manualmargin" id="contactform">
-        <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-8 col-sm-12 col-md-12">
+   <div class="container-fluid" id="contactform">
+        <div class="">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-12 col-sm-12 col-md-12">
                 <div class=" justify-content-center row align-items-lg-center size">
                     <div class="col-lg-6 p-5 col-sm-12 col-md-12 myshadow mx-4">
                         <div class="row">
@@ -45,21 +47,25 @@
                             <div class="">
                                 <div>
                                     <input type="radio" name="contact" id="consulting">
-                                    <label for="consulting">Consulting</label>
+                                    <label for="consulting" class="customRadioLabel">Consulting</label>
+                                    <span class="checkmark"></span>
                                 </div>
                                 <div>
                                     <input type="radio" name="contact" id="socialMedia">
-                                    <label for="socialMedia">Social media</label>
+                                    <label for="socialMedia" class="customRadioLabel">Social media</label>
+                                    <span class="checkmark"></span>
                                 </div>
                             </div>
                             <div class="ms-4">
                                 <div>
                                     <input type="radio" name="contact" id="websites">
-                                    <label for="websites">Websites</label>
+                                    <label for="websites" class="customRadioLabel">Websites</label>
+                                    <span class="checkmark"></span>
                                 </div>
                                 <div>
                                     <input type="radio" name="contact" id="other">
-                                    <label for="other">Other</label>
+                                    <label for="other" class="customRadioLabel">Other</label>
+                                    <span class="checkmark"></span>
                                 </div>
                             </div>
                         </div>
@@ -87,35 +93,37 @@
                             <div><button class="px-4" onclick="sweetAlert()">Send</button></div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-12 col-md-12 myshadow size">
+                    <div class="col-lg-12 col-sm-12 col-md-12 myshadow mt-5 firstbox manualpadding">
                         <div class="d-flex justify-content-center align-items-lg-center size">
                             <div class="  align-self-lg-center">
-                                <div class="d-flex ">
+                                <div class="">
                                     <h4>Contact us</h4>
                                 </div>
                                 <div class="text-wrap">
-                                    <p>Whether you are interested in becoming a customer, looking for our address or just want to say "hello", we would love to hear from you. We are committed to doing a good job for all our customers.</p>
+                                    <p>Whether you are interested in becoming a customer, </p>
+                                    <p>looking for our address or just want to say "hello", we would love to hear from you. </p>
+                                    <p>We are committed to doing a good job for all our customers.</p>
                                 </div>
-                                <div>
-                                    <div class="d-flex mt-2 mb-2">
-                                        <div class="mt-2"><i class="fa-solid fa-phone fa-2xl me-3 icons"></i></div>
+                                <div class="row justify-content-center">
+                                    <div class=" my-2 me-3 col-lg-3 col-sm-3 col-md-3 margin">
+                                        <div class="my-2"><i class="fa-solid fa-phone fa-2xl me-3 icons"></i></div>
                                         <div>
                                             <p>Phone Number</p>
-                                            <a class="text" href="#">+47 999 99 999</a>
+                                            <a class="text transition" href="#">+47 999 99 999</a>
                                         </div>
                                     </div>
-                                    <div class="d-flex mt-2 mb-2">
-                                        <div class="mt-2"><i class="fa-regular fa-paper-plane fa-xl me-3 icons"></i></div>
+                                    <div class="my-2 me-3 col-lg-3 col-sm-3 col-md-3 margin">
+                                        <div class="my-2"><i class="fa-regular fa-paper-plane fa-xl me-3 icons"></i></div>
                                         <div>
                                             <p>Email</p>
-                                            <a class="text" href="#">morning@gmail.com</a>
+                                            <a class="text transition" href="#">morning@gmail.com</a>
                                         </div>
                                     </div>
-                                    <div class="d-flex mt-2 mb-2">
-                                        <div class="mt-2"><i class="fa-solid fa-location-dot fa-2xl me-3 icons"></i></div>
+                                    <div class="my-2 me-3 col-lg-3 col-sm-3 col-md-3 margin">
+                                        <div class="my-2"><i class="fa-solid fa-location-dot fa-2xl me-3 icons"></i></div>
                                         <div>
                                             <p>Location</p>
-                                            <a class="text" href="#">Somewhere</a>
+                                            <a class="text transition" href="#">Somewhere</a>
                                         </div>
                                     </div>
                                 </div>
@@ -124,7 +132,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2"></div>
+            <div class="col-lg-1"></div>
         </div>
    </div>
 </body>
