@@ -51,9 +51,16 @@ Friday:
 - Layout and Color changed
 - based off Reddit now instead of nothing
 ## Screenshots
-
+First concept of the website 
 ![App Screenshot](https://i.imgur.com/6c8TMOI.png)
+
+This is what it looked like after the first day of developtment
 ![App Screenshot](https://i.imgur.com/lNnkj9a.png)
+
+After 2 days, I decided to change the design a little bit to simplify the design and not make it look like a Book.
 ![App Screenshot](https://i.imgur.com/tTCdivs.png)
+
+This is the final design of the website and it turned out pretty great.
 ![App Screenshot](https://i.imgur.com/IOwHqe6.png)
+![App Screenshot](https://i.imgur.com/sZcfIqn.png)
 
